@@ -1,12 +1,26 @@
-# React + Vite
+# Beauty&Co E-commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación de e-commerce desarrollada con React.js que simula una tienda de productos de belleza y cuidado personal. Permite a los usuarios explorar un catálogo de productos, añadirlos a un carrito de compras y realizar un proceso de compra simulado. Los usuarios administradores tienen funcionalidades para la gestión completa del catálogo de productos.
 
-Currently, two official plugins are available:
+## Enlaces del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Aplicación Desplegada (Netlify):** [https://beauty-co-ecommerce-store.netlify.app/](https://beauty-co-ecommerce-store.netlify.app/)
+* **Repositorio de Código (GitHub):** [https://github.com/MattRomanov/beautycoecommerce](https://github.com/MattRomanov/beautycoecommerce)
 
-## Expanding the ESLint configuration
+## Información Importante y Credenciales de Acceso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para explorar y probar las funcionalidades de la aplicación, utiliza las siguientes credenciales:
+
+* **Usuario Cliente:**
+    * **Usuario:** `cliente`
+    * **Contraseña:** `cliente123`
+
+* **Usuario Administrador:**
+    * **Usuario:** `admin`
+    * **Contraseña:** `admin123`
+
+**Nota sobre el Registro de Usuarios:**
+Aunque la funcionalidad de registro de nuevos usuarios está implementada y se muestra un mensaje de éxito al crear una cuenta, actualmente no es posible iniciar sesión con estos usuarios recién creados. Por favor, utiliza únicamente las credenciales predefinidas de cliente y administrador para acceder a la aplicación.
+
+**Nota sobre la Navegación y SEO:**
+Se intentó implementar `react-helmet` para la gestión dinámica del título de la página en el navegador (para SEO). Sin embargo, debido a conflictos de compatibilidad con la versión actual de React, el título de la pestaña del navegador solo se actualiza al recargar la página manualmente después de navegar entre secciones, y no de forma dinámica.
